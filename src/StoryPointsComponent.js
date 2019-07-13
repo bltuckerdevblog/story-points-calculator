@@ -8,7 +8,7 @@ class StoryPointsComponent extends Component {
         const storyPointsToCommitTo = this.props.storyPointsToCommitTo;
         if (storyPointsToCommitTo == null) {
             return (
-                <div>
+                <div id="no-story-points">
                     <h2>Hmmm...</h2>
                 </div>
             )
